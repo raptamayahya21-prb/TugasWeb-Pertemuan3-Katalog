@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Landing page pribadi Raptama Yahya Purba, mahasiswa Ilmu Komputer Universitas Negeri Medan.">
+
+    <meta property="og:title" content="Raptama Yahya Purba | Portofolio">
+    <meta property="og:description"
+        content="Halaman portofolio pribadi Raptama Yahya Purba, mahasiswa Ilmu Komputer UNIMED angkatan 2025.">
+    <meta property="og:image" content="yahya.jpeg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id_ID">
+
+    <title>Raptama Yahya Purba | Landing Page Pribadi</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Portofolio Pribadi Saya</h1>
+        <p>Selamat datang!</p>
+
+        <nav>
+            <ul>
+                <li><a href="#tentang">Tentang Saya</a></li>
+                <li><a href="#keahlian">Keahlian</a></li>
+                <li><a href="#proyek">Proyek Saya</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <figure>
+                <img src="yahya.jpeg" alt="Foto profil Raptama Yahya Purba, mahasiswa Ilmu Komputer UNIMED">
+                <figcaption>Raptama Yahya Purba &mdash; Mahasiswa Ilmu Komputer, Universitas Negeri Medan</figcaption>
+            </figure>
+            <p>
+                Halo! Saya Raptama Yahya Purba, mahasiswa Ilmu Komputer di Universitas Negeri Medan.
+                Saya mulai aktif belajar pengembangan web sejak masuk kuliah pada
+                <time datetime="2026-08">Agustus 2026</time>.
+            </p>
+        </section>
+
+        <section id="keahlian">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>Pengembangan Web Dasar (HTML5 &amp; CSS3)</li>
+                <li>Desain UI Sederhana</li>
+                <li>Version Control dengan Git &amp; GitHub</li>
+            </ul>
+        </section>
+
+        <section id="proyek">
+            <h2>Proyek Saya</h2>
+
+            <article>
+                <h3>Sejenal.id</h3>
+                <p>
+                    Platform kecil yang saya buat untuk membantu orang-orang meluangkan waktu sejenak
+                    dari rutinitas harian yang padat. Dikembangkan menggunakan teknologi web dasar
+                    dan di-deploy melalui Vercel.
+                </p>
+                <p>Mulai dikerjakan dengan vibe coding pada <time datetime="2025-12">Desember 2025</time>.</p>
+                <p><a href="https://sejenakid.vercel.app" target="_blank">Kunjungi Website Sejenal.id &rarr;</a></p>
+            </article>
+
+            <aside>
+                <h3>Catatan</h3>
+                <p>
+                    Semua proyek di atas merupakan hasil belajar mandiri dan dikerjakan di luar jam kuliah.
+                    Saya terbuka untuk kolaborasi atau sekadar berdiskusi soal teknologi.
+                </p>
+            </aside>
+        </section>
+
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p>
+                Hubungi saya melalui email
+                <a href="mailto:raptamayahya.4252550006@mhs.unimed.ac.id">raptamayahya.4252550006@mhs.unimed.ac.id</a>
+                atau isi form di bawah ini.
+            </p>
+
+            <h3>Kirim Pesan Langsung</h3>
+
+            <form action="https://formspree.io/f/raptamayahya.4252550006@mhs.unimed.ac.id" method="POST">
+
+                <label for="name">Nama Lengkap:</label><br>
+                <input type="text" id="name" name="name" placeholder="Nama lengkap kamu" required><br><br>
+
+                <label for="email">Alamat Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com" required><br><br>
+
+                <label for="tanggal">Tanggal Kirim:</label><br>
+                <input type="date" id="tanggal" name="tanggal"><br><br>
+
+                <label for="warna">Warna Favorit Kamu:</label><br>
+                <input type="color" id="warna" name="warna" value="#3a86ff"><br><br>
+
+                <label for="prioritas">Seberapa mendesak pesanmu? (1 = santai, 10 = urgent):</label><br>
+                <input type="range" id="prioritas" name="prioritas" min="1" max="10" value="5"><br><br>
+
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Tulis pesanmu di sini..."
+                    required></textarea><br><br>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <time datetime="2026">2026</time> Raptama Yahya Purba. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
