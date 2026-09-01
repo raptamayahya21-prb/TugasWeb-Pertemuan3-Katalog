@@ -12624,66 +12624,70 @@ fieldset:disabled .btn {
 }
 
 /* =========================================================
-   CYBER TECH THEME STYLING (Hitam + Cyan + Slate)
+   EMERALD GREEN THEME STYLING (Hitam + Emerald + Hijau Neon)
    ========================================================= */
-body.cyber-theme {
-  background-color: #0b0f19;
-  color: #e2e8f0;
+body.emerald-theme {
+  background-color: #05130b;
+  color: #ecfdf5;
 }
 
-.cyber-section {
-  background: radial-gradient(circle at 50% 0%, #172554 0%, #0b0f19 75%);
+.emerald-section {
+  background: radial-gradient(circle at 50% 0%, #064e3b 0%, #041009 80%);
 }
 
-.cyber-card {
-  background-color: #131d31 !important;
-  border: 1px solid rgba(13, 202, 240, 0.18) !important;
+.emerald-card {
+  background-color: #0b2316 !important;
+  border: 1px solid rgba(16, 185, 129, 0.25) !important;
   border-radius: 0.75rem;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
-.cyber-card:hover {
+.emerald-card:hover {
   transform: translateY(-8px);
-  border-color: rgba(13, 202, 240, 0.6) !important;
-  box-shadow: 0 12px 30px -5px rgba(13, 202, 240, 0.28), 0 0 15px rgba(13, 202, 240, 0.15) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 12px 30px -5px rgba(16, 185, 129, 0.35), 0 0 20px rgba(16, 185, 129, 0.2) !important;
 }
 
-.cyber-card .card-img-top {
+.emerald-card .card-img-top {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
 
-.text-cyan {
-  color: #0dcaf0 !important;
+.text-emerald {
+  color: #10b981 !important;
 }
 
-.btn-cyber {
-  background: linear-gradient(135deg, #0dcaf0 0%, #0d6efd 100%);
-  color: #000 !important;
-  font-weight: 600;
+.text-emerald-light {
+  color: #6ee7b7 !important;
+}
+
+.btn-emerald {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #022c22 !important;
+  font-weight: 700;
   border: none;
   border-radius: 0.5rem;
   transition: all 0.3s ease;
 }
 
-.btn-cyber:hover {
-  background: linear-gradient(135deg, #38bdf8 0%, #2563eb 100%);
-  box-shadow: 0 0 15px rgba(13, 202, 240, 0.5);
+.btn-emerald:hover {
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+  box-shadow: 0 0 18px rgba(16, 185, 129, 0.6);
   color: #fff !important;
   transform: scale(1.02);
 }
 
-.btn-cyber-outline {
+.btn-emerald-outline {
   background: transparent;
-  color: #0dcaf0 !important;
-  border: 1px solid #0dcaf0;
+  color: #10b981 !important;
+  border: 1px solid #10b981;
   font-weight: 600;
   border-radius: 0.5rem;
   transition: all 0.3s ease;
 }
 
-.btn-cyber-outline:hover {
-  background: #0dcaf0;
-  color: #000 !important;
-  box-shadow: 0 0 15px rgba(13, 202, 240, 0.4);
+.btn-emerald-outline:hover {
+  background: #10b981;
+  color: #022c22 !important;
+  box-shadow: 0 0 18px rgba(16, 185, 129, 0.5);
 }
