@@ -12691,3 +12691,18 @@ body.emerald-theme {
   color: #022c22 !important;
   box-shadow: 0 0 18px rgba(16, 185, 129, 0.5);
 }
+
+.emerald-nav {
+  background: linear-gradient(180deg, #021a0f 0%, #062e1a 100%) !important;
+  border-bottom: 1px solid rgba(16, 185, 129, 0.25) !important;
+}
+
+.emerald-header {
+  background: radial-gradient(circle at 50% 30%, #063d22 0%, #031c10 85%) !important;
+  border-bottom: 1px solid rgba(16, 185, 129, 0.25) !important;
+}
+
+.emerald-footer {
+  background: linear-gradient(180deg, #062e1a 0%, #021a0f 100%) !important;
+  border-top: 1px solid rgba(16, 185, 129, 0.25) !important;
+}
