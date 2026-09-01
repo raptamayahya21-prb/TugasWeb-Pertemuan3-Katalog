@@ -12622,3 +12622,14 @@ fieldset:disabled .btn {
 .card-title {
   font-size: clamp(1.1rem, 1.5vw + 0.5rem, 1.3rem);
 }
+
+/* Card hover animation & contrast enhancement */
+.card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12) !important;
+}
